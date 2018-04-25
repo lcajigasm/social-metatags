@@ -1,5 +1,5 @@
 <?php
-namespace Luisinder\Middleware;
+namespace Luisinder;
 
 Class SocialMetaTags{
 
