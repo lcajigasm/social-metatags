@@ -5,3 +5,17 @@
 [![License](https://poser.pugx.org/luisinder/social-metatags/license)](https://packagist.org/packages/luisinder/social-metatags)
 
 PSR-4 library to generate the main meta-tags of Twitter / Open Graph
+
+### Installation
+
+With Composer:
+
+```sh
+composer require luisinder/maintenance-middleware
+```
+
+### Use
+
+```sh
+<?= \Luisinder\SocialMetaTags::meta_ogImage($finalImage) ?>
+```
