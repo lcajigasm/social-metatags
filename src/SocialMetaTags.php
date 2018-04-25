@@ -64,6 +64,11 @@ Class SocialMetaTags{
 		return '<meta property="og:image" content="' . $imageUrl . '" />';
 	}
 
+	public static function meta_ogSecureImage(string $imageUrl){
+		// https://developers.facebook.com/docs/sharing/webmasters#images
+		return '<meta property="og:image" content="' . $imageUrl . '" />';
+	}
+
 	public static function meta_ogDescription(string $description){
 		return '<meta property="og:description" content="' . $description . '" />';
 	}
