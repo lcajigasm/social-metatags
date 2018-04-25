@@ -11,7 +11,7 @@ PSR-4 library to generate the main meta-tags of Twitter / Open Graph
 With Composer:
 
 ```sh
-composer require luisinder/maintenance-middleware
+composer require luisinder/social-metatags
 ```
 
 ### Use
