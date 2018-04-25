@@ -1,5 +1,5 @@
 {
-    "name": "luis/social-metatags",
+    "name": "luisinder/social-metatags",
     "description": "PHP library for generate social metatags",
     "type": "library",
     "license": "MIT",
