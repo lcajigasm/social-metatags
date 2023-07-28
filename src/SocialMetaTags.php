@@ -30,7 +30,7 @@ Class SocialMetaTags{
 
 	public static function meta_twDescription (string $description){
 		// Page description less than 200 characters
-		$finalDescription = substr($description, 200);
+		$finalDescription = substr($description, 0, 200);
 		return '<meta name="twitter:description" content="' . $finalDescription . '">';
 	}
 
