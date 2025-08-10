@@ -1,18 +1,33 @@
 {
     "name": "luisinder/social-metatags",
-    "description": "PHP library for generate social metatags",
+    "description": "Lightweight PHP library to generate common Twitter Card & Open Graph meta tags.",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Luis Cajigas",
-            "email": "luic87@gmail.com"
+            "name": "Luis Cajigas"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=8.2"
+    },
     "autoload": {
         "psr-4": {
-            "Luisinder\\": "src"
+            "Luisinder\\": "src/"
         }
+    },
+    "keywords": [
+        "meta",
+        "opengraph",
+        "open graph",
+        "twitter",
+        "twitter cards",
+        "seo",
+        "social",
+        "tags"
+    ],
+    "support": {
+        "issues": "https://github.com/lcajigasm/social-metatags/issues",
+        "source": "https://github.com/lcajigasm/social-metatags"
     }
 }
